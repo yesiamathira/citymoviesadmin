@@ -1,0 +1,14 @@
+
+<div class='add'>
+<h2>Add movie</h2>
+<input type='text' placeholder="name" [(ngModel)]=movie.name><br><br>
+<input type='text' placeholder="year" [(ngModel)]=movie.year><br><br>
+<input type='text' placeholder="image-url" [(ngModel)]=movie.image_url><br><br>
+<input type='text' placeholder="production-house" [(ngModel)]=movie.production_house><br><br>
+<input type='text' placeholder="rating" [(ngModel)]=movie.rating><br><br>
+<input type='text' placeholder="type" [(ngModel)]=movie.type><br><br>
+<input type='text' placeholder="language" [(ngModel)]=movie.language><br><br>
+<input type='date' placeholder="date" [(ngModel)]=movie.date><br><br>
+<input type='button' (click)=addMovie(movie) value='Add Movie'><br><br>
+
+</div>

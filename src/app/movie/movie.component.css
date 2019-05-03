@@ -1,0 +1,28 @@
+/* img{
+    width:100%
+}
+table td,th{
+    width:20%;
+    /* padding-left:-6px; */
+/* }
+
+td{
+    padding:-12px;
+    margin-left:20px;
+} */
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+td{
+    width: 10%;
+    height: 10%;
+}
+.list{
+    width: 100%;
+}
+th{
+    margin-left:0px;
+}
